@@ -4,6 +4,10 @@ This project contains a complete SPI slave implementation with RAM and FSM in Ve
 
 Folder Structure:
 
+├── src/                          ← Verilog files: design + RAM + FSM
+│
+├── tb/                           ← Testbench files
+│
 ├── doc/                          ← Documentation files
 │   ├── Project2_Report.pdf       ← Final project report
 │   ├── waveform_snippets/        ← QuestaSim waveform screenshots
@@ -12,7 +16,6 @@ Folder Structure:
 │   └── lint_snippets/            ← QuestaLint screenshots
 │
 ├── vivado/                       ← Complete Vivado project
-│   ├── src/                      ← Verilog files: design + RAM + FSM
 │   ├── constraints/              ← .xdc constraint files
 │   ├── synthesis/                ← Synthesis reports (for each encoding)
 │   ├── implementation/           ← Implementation reports
@@ -20,7 +23,6 @@ Folder Structure:
 │   └── vivado_project.xpr        ← Vivado project file
 │
 ├── simulation/                   ← QuestaSim project
-│   ├── tb/                       ← Testbench files
 │   ├── spi_slave_tb.do           ← Simulation .do file
 │   └── spi_slave_tb.questa       ← QuestaSim project file
 │
