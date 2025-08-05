@@ -1,0 +1,4 @@
+m_allSignalsCdcSignals : 1 , m_preferCdcSignalReporting : 0, m_topModule : SPI_Slave_with_Ram
+
+Module : SPI_Slave_with_Ram
+

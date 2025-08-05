@@ -1,0 +1,24 @@
+<LayoutInfo version="1" CurrentRTLLayout="Default">
+ <Layout Name="Default" Type="IDE_pref">
+  <dockareas left="383" bottom="243" right="633" top="0"/>
+  <taborder left="zinflownavigator+zindetails+zincdcdutview+" bottom="transcript+zinmsgviewer+zinlintMsgView+zinlintDesignMetricsView+zinlintDesignInfoView+zinlintMsgStatusHistoryView+zinlintMsgDashboardView+" right="zindriverreceiverview+zinlintMsgSummaryView+"/>
+  <activetab left="zinflownavigator" activewindow="zinflownavigator" bottom="zinlintMsgView" right="zinlintMsgSummaryView"/>
+  <window undocked="0" title="Flow Navigator" visible="1" type="zinflownavigator" x="0" dock_location="left" y="0"/>
+  <window undocked="0" title="Details" visible="1" type="zindetails" x="0" dock_location="left" y="0"/>
+  <window undocked="0" title="Design" visible="1" type="zincdcdutview" x="0" dock_location="left" y="0"/>
+  <window undocked="0" title="Drivers" visible="1" type="zindriverreceiverview" x="0" dock_location="right" y="0"/>
+  <window undocked="0" title="Lint Summary" visible="1" type="zinlintMsgSummaryView" x="0" dock_location="right" y="0"/>
+  <window undocked="0" visible="1" type="transcript" x="0" dock_location="bottom" y="0"/>
+  <window undocked="0" title="Message Viewer" visible="1" type="zinmsgviewer" x="0" dock_location="bottom" y="0"/>
+  <window undocked="0" title="Lint Checks" visible="1" type="zinlintMsgView" x="0" dock_location="bottom" y="0"/>
+  <window undocked="0" title="Design Metrics" visible="1" type="zinlintDesignMetricsView" x="0" dock_location="bottom" y="0"/>
+  <window undocked="0" title="Design Information" visible="1" type="zinlintDesignInfoView" x="0" dock_location="bottom" y="0"/>
+  <window undocked="0" title="Status History" visible="1" type="zinlintMsgStatusHistoryView" x="0" dock_location="bottom" y="0"/>
+  <window undocked="0" title="Lint Dashboard" visible="1" type="zinlintMsgDashboardView" x="0" dock_location="bottom" y="0"/>
+  <window undocked="0" visible="1" type="rtl" x="-1" width="1920" y="-9" height="991"/>
+  <window undocked="0" visible="0" type="source" x="0" dock_location="center" y="0"/>
+  <window undocked="0" visible="0" type="source" id="1" x="0" dock_location="center" y="0"/>
+  <window undocked="0" visible="0" type="source" id="2" x="0" dock_location="center" y="0"/>
+  <window undocked="0" visible="1" type="source" id="3" x="0" dock_location="center" y="0"/>
+ </Layout>
+</LayoutInfo>

@@ -1,0 +1,105 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Tue Aug  5 03:03:49 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : SPI_Slave_with_Ram
+Database             : D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/questalint/lint.db
+Design Quality Score : 99.8%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+---------------
+| Warning (2) |
+---------------
+  seq_block_has_complex_cond              : 1
+  always_signal_assign_large              : 1
+
+------------
+| Info (3) |
+------------
+  fsm_without_one_hot_encoding            : 1
+  parameter_name_duplicate                : 2
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+
+---------------
+| Warning (2) |
+---------------
+
+Check: seq_block_has_complex_cond [Category: Reset] (1)
+       [Message: Sequential block has complex condition. Condition '<condition>', Module '<module>', File '<file>', Block at line '<line>', Condition at line '<line1>'.]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+seq_block_has_complex_cond: [uninspected] Sequential block has complex condition. Condition 'clr||!rst_n', Module 'up_counter', File 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v', Block at line '11', Condition at line '12'.
+
+
+Check: always_signal_assign_large [Category: Rtl Design Style] (1)
+       [Message: Always block has more signal assignments than the specified limit. Total count '<count>', Specified limit '<limit>', Module '<module>', File '<file>', Line '<line>'.]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+always_signal_assign_large: [uninspected] Always block has more signal assignments than the specified limit. Total count '7', Specified limit '5', Module 'SPI_Slave', File 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v', Line '90'.
+
+
+
+------------
+| Info (3) |
+------------
+
+Check: fsm_without_one_hot_encoding [Category: Rtl Design Style] (1)
+       [Message: FSM encoding is not one-hot. Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------
+fsm_without_one_hot_encoding: [uninspected] FSM encoding is not one-hot. Module 'SPI_Slave', File 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v', Line '54'. [RTL ID:f3f9531a_00200]
+
+
+Check: parameter_name_duplicate [Category: Nomenclature Style] (2)
+       [Message: Same parameter name is used in more than one module. Parameter '<parameter>', Total count '<count>', First module: Module '<module1>', File '<file1>', Line '<line1>', Second module: Module '<module2>', File '<file2>', Line '<line2>']
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+parameter_name_duplicate: [uninspected] Same parameter name is used in more than one module. Parameter 'MEM_DEPTH', Total count '2', First module: Module 'SPI_Slave_with_Ram', File 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v', Line '2', Second module: Module 'SPR_Sync', File 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v', Line '2'
+
+parameter_name_duplicate: [uninspected] Same parameter name is used in more than one module. Parameter 'ADDR_SIZE', Total count '2', First module: Module 'SPI_Slave_with_Ram', File 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v', Line '3', Second module: Module 'SPR_Sync', File 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v', Line '3'
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 65
+  Latch Bits                              : 0
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

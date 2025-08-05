@@ -1,0 +1,7 @@
+Index@CheckId@Status@Category@DesignCategory@Severity@FileId@Module@ArgList@ClusterInfo@OldRtlId
+5e9763c3@0@uninspected@Reset@Implementation@Warning@0@"up_counter"@"0:clr||!rst_n#1:up_counter#2:D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v#"@"0"@""
+fae68679@1@uninspected@Rtl Design Style@Rtl Design Style@Info@1@"SPI_Slave"@"0:SPI_Slave#1:D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v#rtl_id:f3f9531a_00200"@"0"@""
+b1224321@2@uninspected@Rtl Design Style@Rtl Design Style@Warning@1@"SPI_Slave"@"0:7#1:5#2:SPI_Slave#3:D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v#"@"0"@""
+c51749ee@3@uninspected@Nomenclature Style@Nomenclature Style@Info@2,3@"SPI_Slave_with_Ram"@"0:MEM_DEPTH#1:2#2:SPI_Slave_with_Ram#3:D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v#5:SPR_Sync#6:D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v#"@""@""
+7ff2a1c4@3@uninspected@Nomenclature Style@Nomenclature Style@Info@2,3@"SPI_Slave_with_Ram"@"0:ADDR_SIZE#1:2#2:SPI_Slave_with_Ram#3:D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v#5:SPR_Sync#6:D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v#"@""@""
+

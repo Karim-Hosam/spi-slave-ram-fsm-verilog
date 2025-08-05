@@ -1,0 +1,22 @@
+D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/tb/Single_Port_Sync_RAM_tb.v {1 {vlog -work work -vopt -stats=none D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/tb/Single_Port_Sync_RAM_tb.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Single_Port_Sync_RAM_tb
+
+Top level modules:
+	Single_Port_Sync_RAM_tb
+
+} {} {}} D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Up_Counter.v {1 {vlog -work work -vopt -stats=none D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Up_Counter.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Up_Counter
+
+Top level modules:
+	Up_Counter
+
+} {} {}} D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v {1 {vlog -work work -vopt -stats=none D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Single_Port_Sync_RAM
+
+Top level modules:
+	Single_Port_Sync_RAM
+
+} {} {}}

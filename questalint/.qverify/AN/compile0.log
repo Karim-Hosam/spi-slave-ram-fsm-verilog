@@ -1,0 +1,12 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 02:59:48 on Aug 05,2025
+vlog D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v -work work 
+-- Compiling module up_counter
+-- Compiling module SPR_Sync
+-- Compiling module SPI_Slave
+-- Compiling module SPI_Slave_with_Ram
+
+Top level modules:
+	SPI_Slave_with_Ram
+End time: 02:59:48 on Aug 05,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

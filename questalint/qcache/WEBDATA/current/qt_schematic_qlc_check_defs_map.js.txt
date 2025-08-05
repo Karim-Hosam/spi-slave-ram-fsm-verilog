@@ -1,0 +1,5 @@
+seq_block_has_complex_cond:off
+fsm_without_one_hot_encoding:off
+always_signal_assign_large:off
+parameter_name_duplicate:off
+

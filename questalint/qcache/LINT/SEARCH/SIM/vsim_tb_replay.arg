@@ -1,0 +1,3 @@
+-f D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/questalint/qcache/LINT/SEARCH/SIM/vsim_tb_replay_top_modules.arg \
+-L work \
+-voptargs="-assertdebug"

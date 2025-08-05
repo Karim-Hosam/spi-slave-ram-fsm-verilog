@@ -1,0 +1,5 @@
+CheckId@CheckName
+0@seq_block_has_complex_cond
+1@fsm_without_one_hot_encoding
+2@always_signal_assign_large
+3@parameter_name_duplicate
