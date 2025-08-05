@@ -51,16 +51,17 @@ module SPI_Slave #(
     case (cs)
 
       IDLE: begin
-        if (SS_n) ns = IDLE;
-        else ns = CHK_CMD;
+        if (!SS_n) ns = CHK_CMD;
+        else ns = IDLE;
       end
 
       CHK_CMD: begin
         if (SS_n) ns = IDLE;
-        else if (MOSI == 1 && rd_addr_Done == 0) ns = READ_ADD;
-        else if (MOSI == 1 && rd_addr_Done == 1) ns = READ_DATA;
-        else if (MOSI == 0) ns = WRITE;
-        else ns = CHK_CMD;
+        if (bit_count == 0 && enable_counter) begin
+          if (MOSI == 1 && rd_addr_Done == 0) ns = READ_ADD;
+          else if (MOSI == 1 && rd_addr_Done == 1) ns = READ_DATA;
+          else if (MOSI == 0) ns = WRITE;
+        end else ns = CHK_CMD;
       end
 
       WRITE: begin
@@ -100,13 +101,16 @@ module SPI_Slave #(
           rx_data <= 0;
           rx_valid <= 0;
           MISO <= 0;
-          clr_counter <= 1;
-          enable_counter <= 0;
+          if (ns == CHK_CMD) begin
+            clr_counter <= 0;
+            enable_counter <= 1;
+          end else begin
+            clr_counter <= 1;
+            enable_counter <= 0;
+          end
         end
 
         CHK_CMD: begin
-          clr_counter <= 0;
-          enable_counter <= 1;
           rx_data_reg[bit_count] <= MOSI;
         end
 
@@ -114,8 +118,9 @@ module SPI_Slave #(
           if (bit_count < 10) begin
             rx_data_reg[bit_count] <= MOSI;
           end else begin
-            rx_data  <= rx_data_reg;
+            rx_data <= rx_data_reg;
             rx_valid <= 1;
+            clr_counter <= 1;
           end
         end
 
@@ -126,6 +131,7 @@ module SPI_Slave #(
             rx_data <= rx_data_reg;
             rx_valid <= 1;
             rd_addr_Done <= 1;
+            clr_counter <= 1;
           end
         end
 
@@ -140,8 +146,9 @@ module SPI_Slave #(
               enable_counter <= 0;
             end
           end else begin
+            clr_counter <= 0;
             enable_counter <= 1;
-            MISO <= tx_data[bit_count];
+            MISO <= tx_data[(DATA_SIZE - 1) - bit_count];
             rd_addr_Done <= 0;
           end
         end

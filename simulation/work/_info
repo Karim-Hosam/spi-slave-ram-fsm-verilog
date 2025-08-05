@@ -23,6 +23,54 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -52,8 +100,19 @@ R3
 R4
 n@_opt1
 R5
+R1
+T_opt2
+!s110 1754423242
+VngPXO9^QazI235dJOnG<H3
+04 14 4 work SPI_Wrapper_tb fast 0
+=1-9c2f9d67e48b-68925fca-1d-5434
+R2
+R3
+R4
+n@_opt2
+R5
 vSingle_Port_Sync_RAM
-Z6 !s110 1754361740
+Z6 !s110 1754423237
 !i10b 1
 !s100 ^n^L>Cj>8YgV=P9CTA2KU3
 I@lUF:m01lJG2X_RXKij610
@@ -61,14 +120,14 @@ Z7 dD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-
 w1754356139
 8../src/Single_Port_Sync_RAM.v
 F../src/Single_Port_Sync_RAM.v
-!i122 50
+!i122 102
 L0 1 43
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z10 !s108 1754361740.000000
+Z10 !s108 1754423237.000000
 Z11 !s107 ../tb/Single_Port_Sync_RAM_tb.v|../tb/SPI_Slave_tb.v|../tb/SPI_Wrapper_tb.v|../src/Up_Counter.v|../src/Single_Port_Sync_RAM.v|../src/SPI_Slave.v|../src/SPI_Wrapper.v|
 Z12 !s90 -reportprogress|300|../src/SPI_Wrapper.v|../src/SPI_Slave.v|../src/Single_Port_Sync_RAM.v|../src/Up_Counter.v|../tb/SPI_Wrapper_tb.v|../tb/SPI_Slave_tb.v|../tb/Single_Port_Sync_RAM_tb.v|
 !i113 0
@@ -84,7 +143,7 @@ R7
 w1754356659
 8../tb/Single_Port_Sync_RAM_tb.v
 F../tb/Single_Port_Sync_RAM_tb.v
-!i122 50
+!i122 102
 L0 1 59
 R8
 R9
@@ -101,14 +160,14 @@ n@single_@port_@sync_@r@a@m_tb
 vSPI_Slave
 R6
 !i10b 1
-!s100 _QW8_FRjlE2U0efQ4ehK<1
-I:9ZKOQQ?95Pd6;Y26HlX30
+!s100 JU2d^iAkP?AGJ>mGM<JSE2
+InMC6g5Z9Elk_YPkCEJR8I3
 R7
-w1754361565
+w1754423235
 8../src/SPI_Slave.v
 F../src/SPI_Slave.v
-!i122 50
-L0 1 160
+!i122 102
+L0 1 167
 R8
 R9
 r1
@@ -124,14 +183,14 @@ n@s@p@i_@slave
 vSPI_Slave_tb
 R6
 !i10b 1
-!s100 banH:?DL:Sf3fRUN9>PLX2
-IAdXzN=0iDTS6a<zRWi@FN1
+!s100 9=dg]6LFaBEzV1XUOOAQW0
+I0_MQ]h=cnk<=8BbbFXk>_1
 R7
-w1754361734
+w1754361969
 8../tb/SPI_Slave_tb.v
 F../tb/SPI_Slave_tb.v
-!i122 50
-L0 1 92
+!i122 102
+L0 1 93
 R8
 R9
 r1
@@ -147,13 +206,13 @@ n@s@p@i_@slave_tb
 vSPI_Wrapper
 R6
 !i10b 1
-!s100 VPTOCT>0G7lJ;`K:6V^?11
-IVkQVozeb;P7?R=`E0o[H10
+!s100 J?jI3_6OmgCeM?:40g^@G3
+IGbJR<_DC`fQAdCPP02MBz1
 R7
-w1754358767
+w1754414148
 8../src/SPI_Wrapper.v
 F../src/SPI_Wrapper.v
-!i122 50
+!i122 102
 L0 1 44
 R8
 R9
@@ -170,14 +229,14 @@ n@s@p@i_@wrapper
 vSPI_Wrapper_tb
 R6
 !i10b 1
-!s100 ilm2JdYLBUE`Jnz6z>UVk0
-IS]D`WJRm6S2Dio_1NzPk]0
+!s100 f?Wee4nC4n4Q2chc;LjfK3
+I1[jhiXmD>ag`O?4=_^McM2
 R7
-w1754358725
+w1754423082
 8../tb/SPI_Wrapper_tb.v
 F../tb/SPI_Wrapper_tb.v
-!i122 50
-L0 1 48
+!i122 102
+L0 1 276
 R8
 R9
 r1
@@ -196,10 +255,10 @@ R6
 !s100 <<BzDg7<6K;0Y_Ee4`=[^0
 ISIFVBTR>3Z>8Z6i;I5;?o1
 R7
-w1754354227
+w1754418247
 8../src/Up_Counter.v
 F../src/Up_Counter.v
-!i122 50
+!i122 102
 L0 1 19
 R8
 R9

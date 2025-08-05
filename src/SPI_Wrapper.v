@@ -6,11 +6,11 @@ module SPI_Wrapper #(
     input rst_n,
     input SS_n,
     input MOSI,
-    output reg MISO
+    output MISO
 );
-  reg rx_valid_reg, tx_valid_reg;
-  reg [DATA_ADDR_SIZE + 1:0] ram_din_reg;
-  reg [DATA_ADDR_SIZE - 1:0] ram_dout_reg;
+  wire rx_valid_reg, tx_valid_reg;
+  wire [DATA_ADDR_SIZE + 1:0] ram_din_reg;
+  wire [DATA_ADDR_SIZE - 1:0] ram_dout_reg;
 
   SPI_Slave #(
       .DATA_SIZE(DATA_ADDR_SIZE)
