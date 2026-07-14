@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Aug  6 01:57:54 2025
+# Process ID: 18584
+# Current directory: D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/vivado/Project_2_SPI/Project_2_SPI.runs/impl_1
+# Command line: vivado.exe -log SPI_Wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SPI_Wrapper.tcl -notrace
+# Log file: D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/vivado/Project_2_SPI/Project_2_SPI.runs/impl_1/SPI_Wrapper.vdi
+# Journal file: D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/vivado/Project_2_SPI/Project_2_SPI.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SPI_Wrapper.tcl -notrace
+Command: link_design -top SPI_Wrapper -part xc7a35ticpg236-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/vivado/Constraints_basys3.xdc]
+Finished Parsing XDC File [D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/vivado/Constraints_basys3.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 647.988 ; gain = 336.176
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35ti'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.611 . Memory (MB): peak = 658.961 ; gain = 10.973
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 181f673ab
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1173.586 ; gain = 514.625
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+ERROR: [Chipscope 16-302] Could not generate core for dbg_hub. Aborting IP Generation operaion. The current Vivado temporary directory path, 'D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/vivado/Project_2_SPI/Project_2_SPI.runs/impl_1/.Xil/Vivado-18584-Karim-Hosam', is 174 characters. Errors on the host OS will occur when trying to insert logic for debug core 'dbg_hub' when temporary directory paths exceed 146 characters. Please move this Vivado project or the Vivado working directory to a shorter path; alternately consider using the OS subst command to map part of the path to a drive letter.
+  
+	
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 181f673ab
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1173.586 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+opt_design failed
+ERROR: [Chipscope 16-338] Implementing debug Cores failed due to earlier errors
+INFO: [Common 17-206] Exiting Vivado at Wed Aug  6 01:58:39 2025...

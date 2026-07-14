@@ -1,1 +1,1 @@
-lint methodology soc -goal release 
+lint methodology soc -goal start 

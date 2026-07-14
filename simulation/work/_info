@@ -71,6 +71,8 @@ R0
 R0
 R0
 R0
+R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -102,40 +104,41 @@ n@_opt1
 R5
 R1
 T_opt2
-!s110 1754423242
-VngPXO9^QazI235dJOnG<H3
+!s110 1754428025
+VcZ9G6m5H9K9zf38507l<53
 04 14 4 work SPI_Wrapper_tb fast 0
-=1-9c2f9d67e48b-68925fca-1d-5434
+=1-9c2f9d67e48b-68927278-66-1210
 R2
 R3
 R4
 n@_opt2
 R5
+R1
 vSingle_Port_Sync_RAM
-Z6 !s110 1754423237
+Z6 !s110 1754428516
 !i10b 1
 !s100 ^n^L>Cj>8YgV=P9CTA2KU3
 I@lUF:m01lJG2X_RXKij610
 Z7 dD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/simulation
-w1754356139
+w1754427044
 8../src/Single_Port_Sync_RAM.v
 F../src/Single_Port_Sync_RAM.v
-!i122 102
+!i122 107
 L0 1 43
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z10 !s108 1754423237.000000
-Z11 !s107 ../tb/Single_Port_Sync_RAM_tb.v|../tb/SPI_Slave_tb.v|../tb/SPI_Wrapper_tb.v|../src/Up_Counter.v|../src/Single_Port_Sync_RAM.v|../src/SPI_Slave.v|../src/SPI_Wrapper.v|
-Z12 !s90 -reportprogress|300|../src/SPI_Wrapper.v|../src/SPI_Slave.v|../src/Single_Port_Sync_RAM.v|../src/Up_Counter.v|../tb/SPI_Wrapper_tb.v|../tb/SPI_Slave_tb.v|../tb/Single_Port_Sync_RAM_tb.v|
+Z10 !s108 1754428516.000000
+!s107 ../tb/SPI_Wrapper_tb.v|../src/Up_Counter.v|../src/Single_Port_Sync_RAM.v|../src/SPI_Slave.v|../src/SPI_Wrapper.v|
+Z11 !s90 -reportprogress|300|../src/SPI_Wrapper.v|../src/SPI_Slave.v|../src/Single_Port_Sync_RAM.v|../src/Up_Counter.v|../tb/SPI_Wrapper_tb.v|
 !i113 0
-Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R4
 n@single_@port_@sync_@r@a@m
 vSingle_Port_Sync_RAM_tb
-R6
+Z13 !s110 1754423237
 !i10b 1
 !s100 O=o<Ae6Nz@3^=nM:ZzXJ21
 IiSdHaSoE<o_RTEI=MERR_0
@@ -150,23 +153,23 @@ R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+Z14 !s108 1754423237.000000
+Z15 !s107 ../tb/Single_Port_Sync_RAM_tb.v|../tb/SPI_Slave_tb.v|../tb/SPI_Wrapper_tb.v|../src/Up_Counter.v|../src/Single_Port_Sync_RAM.v|../src/SPI_Slave.v|../src/SPI_Wrapper.v|
+Z16 !s90 -reportprogress|300|../src/SPI_Wrapper.v|../src/SPI_Slave.v|../src/Single_Port_Sync_RAM.v|../src/Up_Counter.v|../tb/SPI_Wrapper_tb.v|../tb/SPI_Slave_tb.v|../tb/Single_Port_Sync_RAM_tb.v|
 !i113 0
-R13
+R12
 R4
 n@single_@port_@sync_@r@a@m_tb
 vSPI_Slave
 R6
 !i10b 1
-!s100 JU2d^iAkP?AGJ>mGM<JSE2
-InMC6g5Z9Elk_YPkCEJR8I3
+!s100 FSdRb6JY:FAIOie>SEVJI1
+I7HhM6aez5<[f_m][imUBG3
 R7
-w1754423235
+w1754427946
 8../src/SPI_Slave.v
 F../src/SPI_Slave.v
-!i122 102
+!i122 107
 L0 1 167
 R8
 R9
@@ -174,14 +177,14 @@ r1
 !s85 0
 31
 R10
+Z17 !s107 ../tb/SPI_Wrapper_tb.v|../src/Up_Counter.v|../src/Single_Port_Sync_RAM.v|../src/SPI_Slave.v|../src/SPI_Wrapper.v|
 R11
-R12
 !i113 0
-R13
+R12
 R4
 n@s@p@i_@slave
 vSPI_Slave_tb
-R6
+R13
 !i10b 1
 !s100 9=dg]6LFaBEzV1XUOOAQW0
 I0_MQ]h=cnk<=8BbbFXk>_1
@@ -196,11 +199,11 @@ R9
 r1
 !s85 0
 31
-R10
-R11
-R12
+R14
+R15
+R16
 !i113 0
-R13
+R12
 R4
 n@s@p@i_@slave_tb
 vSPI_Wrapper
@@ -209,10 +212,10 @@ R6
 !s100 J?jI3_6OmgCeM?:40g^@G3
 IGbJR<_DC`fQAdCPP02MBz1
 R7
-w1754414148
+w1754427047
 8../src/SPI_Wrapper.v
 F../src/SPI_Wrapper.v
-!i122 102
+!i122 107
 L0 1 44
 R8
 R9
@@ -220,33 +223,33 @@ r1
 !s85 0
 31
 R10
+R17
 R11
-R12
 !i113 0
-R13
+R12
 R4
 n@s@p@i_@wrapper
 vSPI_Wrapper_tb
 R6
 !i10b 1
-!s100 f?Wee4nC4n4Q2chc;LjfK3
-I1[jhiXmD>ag`O?4=_^McM2
+!s100 bXkKD[zbkOViLHfa7kSIV1
+Icne<DFTfLJXC<5T>e>G=]3
 R7
-w1754423082
+w1754427048
 8../tb/SPI_Wrapper_tb.v
 F../tb/SPI_Wrapper_tb.v
-!i122 102
-L0 1 276
+!i122 107
+L0 1 264
 R8
 R9
 r1
 !s85 0
 31
 R10
+R17
 R11
-R12
 !i113 0
-R13
+R12
 R4
 n@s@p@i_@wrapper_tb
 vUp_Counter
@@ -255,10 +258,10 @@ R6
 !s100 <<BzDg7<6K;0Y_Ee4`=[^0
 ISIFVBTR>3Z>8Z6i;I5;?o1
 R7
-w1754418247
+w1754427043
 8../src/Up_Counter.v
 F../src/Up_Counter.v
-!i122 102
+!i122 107
 L0 1 19
 R8
 R9
@@ -266,9 +269,9 @@ r1
 !s85 0
 31
 R10
+R17
 R11
-R12
 !i113 0
-R13
+R12
 R4
 n@up_@counter

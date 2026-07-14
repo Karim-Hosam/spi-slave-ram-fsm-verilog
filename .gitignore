@@ -1,0 +1,55 @@
+# Vivado
+*.jou
+*.log
+*.pb
+*.str
+*.zip
+*.xpe
+.Xil/
+*/*.cache/
+*/*.hw/
+*/*.ip_user_files/
+*/*.runs/
+*/*.sim/
+
+# ModelSim / Questa / Simulation
+modelsim.ini
+vsim.wlf
+work/
+transcript
+*.mti
+*.mpf
+*.dat
+
+# Questa Lint
+*.db
+*.rpt
+.qverify/
+.visualizer/
+__pycache__/
+qcache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Simulator generated files and folders
+/simulation/qcache/
+/simulation/work/
+/simulation/vsim.wlf
+*.wlf
+transcript
+modelsim.ini
+
+# Vivado generated files
+/vivado/.Xil/
+/vivado/**/*.jou
+/vivado/**/*.log
+/vivado/**/*.str
+/vivado/**/*.os
+
+# Temporary files
+*.tmp
+*.bak
+setup.bat
+setup.ps1

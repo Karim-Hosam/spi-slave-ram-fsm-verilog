@@ -5,41 +5,41 @@ var lintRunProgress = {
     "Pre Design Elaboration": {
         "status": "Completed",
         "progress": "100",
-        "enabledChecks": "6",
+        "enabledChecks": "4",
         "completeCount": "0",
         "type": "checks",
-        "log": "Checks completed (6)"
+        "log": "Checks completed (4)"
     },
     "Design Elaboration": {
         "status": "Completed",
         "progress": "100",
-        "enabledChecks": "273",
+        "enabledChecks": "66",
         "completeCount": "4",
         "type": "modules",
-        "log": "Checks completed (273)"
+        "log": "Checks completed (66)"
     },
     "Post Design Elaboration": {
         "status": "Completed",
         "progress": "100",
-        "enabledChecks": "38",
+        "enabledChecks": "17",
         "completeCount": "0",
         "type": "checks",
-        "log": "Checks completed (37)"
+        "log": "Checks completed (17)"
     },
     "Design Synthesis": {
         "status": "Completed",
         "progress": "100",
-        "enabledChecks": "18",
+        "enabledChecks": "1",
         "completeCount": "0",
         "type": "checks",
-        "log": "Checks completed (18)"
+        "log": "Checks completed (1)"
     },
     "Post Design Synthesis": {
         "status": "Completed",
         "progress": "100",
-        "enabledChecks": "31",
+        "enabledChecks": "15",
         "completeCount": "0",
         "type": "checks",
-        "log": "Checks completed (31)"
+        "log": "Checks completed (15)"
     }
 };

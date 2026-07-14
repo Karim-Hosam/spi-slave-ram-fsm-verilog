@@ -27,24 +27,13 @@ module SPI_Wrapper_tb #(
 
   integer i;
 
-
-  //internals data inside SPI_Slave
-  // DUT.spi_slave_inst.rx_data, DUT.spi_slave_inst.rx_valid, DUT.spi_slave_inst.cs,
-  // DUT.spi_slave_inst.rd_addr_Done, DUT.spi_slave_inst.rx_data_reg, 
-  // DUT.spi_slave_inst.bit_count
-
-  //internals data inside Single_Port_Sync_RAM
-  // DUT.ram_inst.din, DUT.ram_inst.rx_valid, DUT.ram_inst.tx_valid,
-  // DUT.ram_inst.dout, DUT.ram_inst.wr_addr, DUT.ram_inst.rd_addr, DUT.ram_inst.mem
-
-
   initial begin
 
     // Load memory contents from file & reset signals
     $readmemh("mem.dat", DUT.ram_inst.mem);
     rst_n = 0;
-    SS_n  = 1;  // Active low, so start high
-    MOSI  = 0;
+    SS_n = 1;  // Active low, so start high
+    MOSI = 0;
     DUT.spi_slave_inst.rd_addr_Done = 0;  // Reset the read address done flag
     repeat (2) @(negedge clk);
 
@@ -258,10 +247,9 @@ module SPI_Wrapper_tb #(
     repeat (9) @(negedge clk);
     SS_n = 1;
     $display("\n");
-    
+
     $stop;
   end
-
 
   always @(posedge clk) begin
     $display(

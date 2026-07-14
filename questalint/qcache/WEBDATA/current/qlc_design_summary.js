@@ -7,6 +7,6 @@ var designData = { "DesignInfo" : [
 { "Id" : "5" , "Name":"Unresolved Modules", "Data": [] },
 { "Id" : "6" , "Name":"Hierarchical IPs", "Data": [] }]};
 
-var qlcDesignName ="SPI_Slave_with_Ram";
+var qlcDesignName ="SPI_Wrapper";
 var qlcVersion ="Version 2021.1 4558100 win64 28-Jan-2021";
-var qlcDesignQuality ="99.822853";
+var qlcDesignQuality ="100.000000";

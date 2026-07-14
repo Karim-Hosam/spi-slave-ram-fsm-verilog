@@ -9,85 +9,85 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/questalint
-vSPI_Slave
-Z1 !s110 1754351988
+vSingle_Port_Sync_RAM
+Z1 !s110 1754427980
 !i10b 1
-!s100 3FiDkY>TCCEf9ZG>lL^bi3
-IXTcIPEQXeQ1WgGL87ojQR0
+!s100 ^n^L>Cj>8YgV=P9CTA2KU3
+Ie7kne7A[GXcmBQ6?gn_:a3
 R0
-w1754349428
-8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v
-FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v
-!i122 0
-L0 1 161
+w1754427044
+8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v
+FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v
+!i122 1
+L0 1 43
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z4 !s108 1754351988.000000
-!s107 D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v|
-Z5 !s90 D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v|-work|work|
+Z4 !s108 1754427980.000000
+Z5 !s107 D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Up_Counter.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Wrapper.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v|
+Z6 !s90 D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Wrapper.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Up_Counter.v|-work|work|
 !i113 0
-Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z7 tCvgOpt 0
-n@s@p@i_@slave
-vSPI_Slave_with_Ram
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+n@single_@port_@sync_@r@a@m
+vSPI_Slave
 R1
 !i10b 1
-!s100 MMIR;?RdFPhdPZlEWfI>@2
-I;c]1J_;^X7cY8oDb_?RJF2
+!s100 FSdRb6JY:FAIOie>SEVJI1
+IKg7Kz[8i:HLmmcce9D5U22
 R0
-w1754350286
-8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v
-FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v
-!i122 0
-L0 1 45
+w1754427946
+8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v
+FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v
+!i122 2
+L0 1 167
 R2
 R3
 r1
 !s85 0
 31
 R4
-Z8 !s107 D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave_with_Ram.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v|D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v|
-R5
+!s107 D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v|
+!s90 D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Slave.v|-work|work|
 !i113 0
-R6
 R7
-n@s@p@i_@slave_with_@ram
-vSPR_Sync
-R1
-!i10b 1
-!s100 h3k:NnJ0>5Booa@?L5Jcf2
-IMfH[j`GIlH^ILzg`>NT6H3
-R0
-w1754350380
-8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v
-FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Single_Port_Sync_RAM.v
-!i122 0
-L0 1 42
-R2
-R3
-r1
-!s85 0
-31
-R4
 R8
-R5
-!i113 0
-R6
-R7
-n@s@p@r_@sync
-vup_counter
+n@s@p@i_@slave
+vSPI_Wrapper
 R1
 !i10b 1
-!s100 ;EalfadLkYEBo_:DeKSgW0
-I3]OZh]9cRRSdO]`>@Iz_E3
+!s100 J?jI3_6OmgCeM?:40g^@G3
+Ii]6=?O4NCG<@C:=kPBkUg1
 R0
-w1754340649
-8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v
-FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Counter.v
-!i122 0
+w1754427047
+8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Wrapper.v
+FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/SPI_Wrapper.v
+!i122 1
+L0 1 44
+R2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 0
+R7
+R8
+n@s@p@i_@wrapper
+vUp_Counter
+R1
+!i10b 1
+!s100 <<BzDg7<6K;0Y_Ee4`=[^0
+I9Oa:2S;IX<fj?e^Ig1C9K2
+R0
+w1754427043
+8D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Up_Counter.v
+FD:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/src/Up_Counter.v
+!i122 1
 L0 1 19
 R2
 R3
@@ -95,8 +95,9 @@ r1
 !s85 0
 31
 R4
-R8
 R5
-!i113 0
 R6
+!i113 0
 R7
+R8
+n@up_@counter

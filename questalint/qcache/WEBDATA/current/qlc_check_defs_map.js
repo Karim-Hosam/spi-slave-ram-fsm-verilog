@@ -22,33 +22,26 @@ var statusObj = { "status" : [
 { "statusId" : "4" , "statusName":"fixed" },
 { "statusId" : "5" , "statusName":"verified" }]} ;
 var checks = { "checks":[
-{ "checksId":"0", "checksName":"seq_block_has_complex_cond","severityId":"1","categoryId":"4"},
-{ "checksId":"1", "checksName":"fsm_without_one_hot_encoding","severityId":"2","categoryId":"0"},
-{ "checksId":"2", "checksName":"always_signal_assign_large","severityId":"1","categoryId":"0"},
-{ "checksId":"3", "checksName":"parameter_name_duplicate","severityId":"2","categoryId":"7"},
-{ "checksId":"4", "checksName":" ","severityId":"3","categoryId":"9"}]};
+{ "checksId":"0", "checksName":"always_signal_assign_large","severityId":"2","categoryId":"0"},
+{ "checksId":"1", "checksName":"parameter_name_duplicate","severityId":"2","categoryId":"7"},
+{ "checksId":"2", "checksName":" ","severityId":"3","categoryId":"9"}]};
 var schematicStatus = {  
-"seq_block_has_complex_cond" : "off",
-"fsm_without_one_hot_encoding" : "off",
 "always_signal_assign_large" : "off",
 "parameter_name_duplicate" : "off"};
 var adaptiveModeStatus = {  
-"seq_block_has_complex_cond" : "off",
-"fsm_without_one_hot_encoding" : "off",
 "always_signal_assign_large" : "off",
 "parameter_name_duplicate" : "on"};
 var checkAliasMap = { };
 var argMap = {  
-"1":"condition",
-"2":"module",
-"3":"file",
-"4":"line",
-"5":"line1",
-"6":"count",
-"7":"limit",
-"8":"parameter",
-"9":"module1",
-"10":"file1",
-"11":"module2",
-"12":"file2",
-"13":"line2"};
+"1":"count",
+"2":"limit",
+"3":"module",
+"4":"file",
+"5":"line",
+"6":"parameter",
+"7":"module1",
+"8":"file1",
+"9":"line1",
+"10":"module2",
+"11":"file2",
+"12":"line2"};

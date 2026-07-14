@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="D:/1-Work/3-Digital_Design_Kareem_Wassem/2-Final_Projects/Project_2_SPI/spi-slave-ram-fsm-verilog/vivado/Project_2_SPI/Project_2_SPI.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

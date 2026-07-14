@@ -57,7 +57,7 @@ module SPI_Slave #(
 
       CHK_CMD: begin
         if (SS_n) ns = IDLE;
-        if (bit_count == 0 && enable_counter) begin
+        else if (bit_count == 0 && enable_counter) begin
           if (MOSI == 1 && rd_addr_Done == 0) ns = READ_ADD;
           else if (MOSI == 1 && rd_addr_Done == 1) ns = READ_DATA;
           else if (MOSI == 0) ns = WRITE;
