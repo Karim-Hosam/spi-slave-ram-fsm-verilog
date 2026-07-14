@@ -2,7 +2,7 @@
 
 > **Course:** Digital Design Using Verilog & FPGA Flow Using Vivado  
 > **Instructor:** Eng. Kareem Waseem  
-> **Author:** Karim Hosam  
+> **Authors:** Karim Hosam - Ahmed Emad  
 > **Target Board:** Digilent Basys 3 (Xilinx Artix-7 XC7A35T-1CPG236C)  
 > **EDA Tools:** Siemens QuestaSim 2021.1 · QuestaLint 2021.1 · Xilinx Vivado  
 
